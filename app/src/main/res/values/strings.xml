@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Focus Guardian</string>
+    <string name="app_tagline">Self-Control &amp; Digital Wellbeing Blocker</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="status_protected">Active &amp; Guarding</string>
+    <string name="status_at_risk">Protection Inactive</string>
+    <string name="attempts_today">Blocked Today</string>
+    <string name="attempts_total">Total Blocked</string>
+    <string name="active_modules">Active Modules</string>
+    <string name="emergency_lock">Emergency Lock</string>
+
+    <!-- Modules -->
+    <string name="website_blocking">Website Blocking</string>
+    <string name="website_blocking_desc">Block custom domains &amp; URLs with VpnService DNS filtering.</string>
+    <string name="word_blocking">Custom Keyword Blocking</string>
+    <string name="word_blocking_desc">Monitor on-screen text in English &amp; Bangla via Accessibility Service.</string>
+    <string name="image_blocking">Screenshot / Visual Pattern Blocker</string>
+    <string name="image_blocking_desc">Detect similar visual patterns locally using dHash perceptual matching.</string>
+    <string name="adult_blocking">Adult Content Blocker</string>
+    <string name="adult_blocking_desc">Block 1,000+ adult domains, explicit keywords &amp; enforce SafeSearch.</string>
+    <string name="vpn_blocking">VPN Detection &amp; Restriction</string>
+    <string name="vpn_blocking_desc">Detect and restrict external VPN connections attempting to bypass filters.</string>
+    <string name="tor_blocking">Tor Browser Detection</string>
+    <string name="tor_blocking_desc">Detect and block Tor Browser package launches and onion routing.</string>
+    <string name="uninstall_protection">Uninstall Protection</string>
+    <string name="uninstall_protection_desc">Device Admin &amp; Device Owner management to prevent hasty removal.</string>
+    <string name="penalty_system">Custom Penalty System</string>
+    <string name="penalty_system_desc">Immediate navigation to Home Screen + timed lockout screen.</string>
+
+    <!-- Language -->
+    <string name="language">Language</string>
+    <string name="language_select_title">Choose Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_bangla">বাংলা (Bangla — Bangladesh)</string>
+
+    <!-- Permissions -->
+    <string name="accessibility_service_description">Focus Guardian uses this service exclusively to inspect visible on-screen text in English and Bangla in real-time. If a user-configured blocked word appears, it triggers a self-control penalty to return you home. No screen data is collected or uploaded.</string>
+    <string name="device_admin_label">Focus Guardian Self-Control Protection</string>
+    <string name="device_admin_description">Prevents hasty uninstallation during active focus sessions. If deactivated, configured penalty cooldown is invoked.</string>
+    <string name="vpn_service_label">Focus Guardian Local Filter</string>
+    <string name="penalty_warning">Restricted content detected! Returning to Home Screen...</string>
+    
+    <!-- Lock & Penalty -->
+    <string name="protection_lock_title">Protection Lock Period</string>
+    <string name="lock_active_warning">This protection is currently locked. The switch cannot be turned OFF until the timer expires.</string>
+    <string name="penalty_active_title">Take a Deep Breath</string>
+    <string name="penalty_active_desc">You encountered a restricted item. Take this moment to refocus on what matters most.</string>
+    <string name="do_not_bypass">Back button is restricted during penalty cooldown.</string>
+</resources>

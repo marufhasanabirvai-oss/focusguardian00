@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ফোকাস গার্ডিয়ান</string>
+    <string name="app_tagline">আত্মনিয়ন্ত্রণ এবং ডিজিটাল সুস্থতার সুরক্ষা অ্যাপ</string>
+    <string name="dashboard">ড্যাশবোর্ড</string>
+    <string name="status_protected">সুরক্ষা সক্রিয় রয়েছে</string>
+    <string name="status_at_risk">সুরক্ষা বন্ধ রয়েছে</string>
+    <string name="attempts_today">আজ ব্লক করা হয়েছে</string>
+    <string name="attempts_total">মোট ব্লক সংখ্যা</string>
+    <string name="active_modules">সক্রিয় মডিউলসমূহ</string>
+    <string name="emergency_lock">জরুরি লক</string>
+
+    <!-- Modules -->
+    <string name="website_blocking">ওয়েবসাইট ব্লকিং</string>
+    <string name="website_blocking_desc">VpnService এর মাধ্যমে নির্দিষ্ট ওয়েবসাইট ও ডোমেন সম্পূর্ণ ব্লক করুন।</string>
+    <string name="word_blocking">কাস্টম কিওয়ার্ড ব্লকিং</string>
+    <string name="word_blocking_desc">বাংলা ও ইংরেজিতে স্ক্রিনের ক্ষতিকর শব্দ সনাক্ত ও প্রতিহত করুন।</string>
+    <string name="image_blocking">ছবি ও স্ক্রিনশট ব্লকিং</string>
+    <string name="image_blocking_desc">dHash অ্যালগরিদম দিয়ে লোকালভাবে স্ক্রিনের মিল সনাক্ত করে পেনাল্টি দিন।</string>
+    <string name="adult_blocking">প্রাপ্তবয়স্ক কনটেন্ট ব্লকার</string>
+    <string name="adult_blocking_desc">১,০০০+ অ্যাডাল্ট ডোমেন ও সার্চে SafeSearch ফিল্টারিং কার্যকর করুন।</string>
+    <string name="vpn_blocking">ভিপিএন সংযোগ সনাক্তকরণ</string>
+    <string name="vpn_blocking_desc">ফিল্টার এড়াতে অন্য কোনো ভিপিএন চালু করা হলে তা সনাক্ত ও নিয়ন্ত্রণ করুন।</string>
+    <string name="tor_blocking">টর ব্রাউজার সনাক্তকরণ</string>
+    <string name="tor_blocking_desc">অ্যানোনিমাস Tor Browser অ্যাপের ব্যবহার সনাক্ত ও প্রতিহত করুন।</string>
+    <string name="uninstall_protection">আনইনস্টল সুরক্ষা</string>
+    <string name="uninstall_protection_desc">Device Admin ও Device Owner এর মাধ্যমে অ্যাপ ডিলিট করা রোধ করুন।</string>
+    <string name="penalty_system">কাস্টম পেনাল্টি সিস্টেম</string>
+    <string name="penalty_system_desc">ব্লক নিয়ম ভঙ্গ করলে তাৎক্ষণিক হোম স্ক্রিনে ফেরত ও লকআউট সময়।</string>
+
+    <!-- Language -->
+    <string name="language">ভাষা</string>
+    <string name="language_select_title">ভাষা নির্বাচন করুন</string>
+    <string name="lang_english">English (ইংরেজি)</string>
+    <string name="lang_bangla">বাংলা (Bangla — বাংলাদেশ)</string>
+
+    <!-- Permissions -->
+    <string name="accessibility_service_description">ফোকাস গার্ডিয়ান এই সার্ভিসটি শুধুমাত্র স্ক্রিনের দৃশ্যমান ক্ষতিকর শব্দ বাংলা ও ইংরেজিতে পরীক্ষা করতে ব্যবহার করে। কোনো তথ্য সেভ বা আপলোড করা হয় না।</string>
+    <string name="device_admin_label">ফোকাস গার্ডিয়ান সুরক্ষা</string>
+    <string name="device_admin_description">সক্রিয় ফোকাস চলাকালে যাতে সহজে অ্যাপ ডিলিট না হয় সেজন্য ডিভাইস অ্যাডমিন হিসেবে কাজ করে।</string>
+    <string name="vpn_service_label">ফোকাস গার্ডিয়ান লোকাল ফিল্টার</string>
+    <string name="penalty_warning">নিষিদ্ধ কনটেন্ট সনাক্ত হয়েছে! হোম স্ক্রিনে ফেরত পাঠানো হচ্ছে...</string>
+    
+    <!-- Lock & Penalty -->
+    <string name="protection_lock_title">সুরক্ষা লক সময়কাল</string>
+    <string name="lock_active_warning">এই ফিচারটি বর্তমানে লক করা আছে। মেয়াদ শেষ না হওয়া পর্যন্ত এটি বন্ধ করা যাবে না।</string>
+    <string name="penalty_active_title">গভীর শ্বাস নিন এবং থামুন</string>
+    <string name="penalty_active_desc">আপনি একটি ব্লক করা বিষয়বস্তু দেখতে চেয়েছিলেন। নিজের লক্ষ্যে মনোযোগ ফিরিয়ে আনুন।</string>
+    <string name="do_not_bypass">পেনাল্টি চলাকালীন ব্যাক বাটন কাজ করবে না।</string>
+</resources>
